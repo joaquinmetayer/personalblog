@@ -58,6 +58,9 @@ img{
 	max-width:100%;
 	filter: grayscale(100%);
 }
+embed {
+	filter: grayscale(100%);
+}
 hr{
 	background:#000;
 	height:1px;
