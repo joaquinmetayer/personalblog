@@ -60,6 +60,7 @@ img{
 }
 embed {
 	filter: grayscale(100%);
+    min-height: 300px;
 }
 hr{
 	background:#000;
@@ -150,13 +151,7 @@ main{
 	header li{
 		display:inline;margin-right:1rem
 	}
-.logo{
-	padding-bottom:1rem
-}
-header ul{
-	border-bottom:1px solid white;
-	padding-bottom:2rem
-}
+
 nav ul{
 	border-right:0px
 }
@@ -171,9 +166,7 @@ section{
 	display:flex;
 	flex-direction:column
 }
-embed{
-	min-height: 300px
-};
+
 
 
 
