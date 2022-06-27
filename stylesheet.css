@@ -1,7 +1,5 @@
 *,:after,:before{
 	box-sizing:border-box;
-	background-color:inherit;
-	color:inherit;
 	margin:0;
 	padding:0
 }
@@ -12,17 +10,10 @@ body{
 	line-height:1.5;
 	font-size:1rem;
 	color:#16171a}
-nav ul{
-	border-right:1px solid white;
-}
 a{
 	color:#000;
 	text-decoration-skip-ink:auto;
 	text-decoration:underline
-}
-pre{
-	margin:.5rem 0;
-	padding:.5rem
 }
 .post p{
 	margin:.5rem 0
@@ -33,27 +24,7 @@ pre{
 .post h4{
 	margin:1rem 0
 }
-.post h2:first-child,
-.project h2:first-child,
-.photo h2:first-child{
-	margin-top:0
-}
-.meta{
-	margin:2rem 0
-}
-code,pre{
-	background:white;
-}
-code{
-	padding:.1rem
-}
-pre code{
-	border:none
-}
-pre{
-	padding:1rem;
-	overflow-x:auto
-}
+
 img{
 	max-width:100%;
 	filter: grayscale(100%);
@@ -61,16 +32,6 @@ img{
 embed {
 	filter: grayscale(100%);
     min-height: 300px;
-}
-hr{
-	background:#000;
-	height:1px;
-	border:0
-}
-header{
-	flex-basis:40rem;
-	flex-grow:1;
-	position:relative
 }
 header a{
 	text-decoration:none
@@ -86,31 +47,10 @@ header a.active{
 header,section{
 	padding:1rem
 }
-blockquote{
-	font-style:italic;
-	border-left:5px solid white;
-	padding-left:1rem
-}
 h1,h2,h3,h4,h5{
 	line-height:1;
 	margin:1rem 0;
 	font-weight:600
-}
-section h1:first-child{
-	margin-top:0
-}
-strong,b{
-	font-weight:bold
-}
-.photos ul{
-	list-style:none
-}
-.photos li{
-	margin-bottom:1.5rem
-}
-.photo picture,
-.project picture{
-	margin-bottom:0.5rem
 }
 .posts ul,header ul{
 	list-style:none
@@ -128,12 +68,6 @@ strong,b{
 	overflow:hidden;
 	text-overflow:ellipsis;
 	text-decoration:none
-}
-.posts li time,
-.projects li time{
-	padding-left:1rem;
-	white-space:nowrap;
-	font-variant-numeric:tabular-nums
 }
 .post ul,
 .project ul,
