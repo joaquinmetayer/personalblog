@@ -8,7 +8,7 @@ body{
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 	line-height:1.5;
-	font-size:1rem;
+	font-size:0.99rem;
 	color:#16171a}
 a{
 	color:#000;
@@ -18,13 +18,15 @@ a{
 .post p{
 	margin:.5rem 0
 }
-.post h1,
-.post h2,
-.post h3,
-.post h4{
+.post h1,.post h2,.post h3,.post h4{
 	margin:1rem 0
 }
-
+.post h2:first-child,.project h2:first-child,.photo h2:first-child{
+	margin-top:0
+}
+.meta{
+	margin:2rem 0
+}
 img{
 	max-width:100%;
 	filter: grayscale(100%);
@@ -77,11 +79,11 @@ h1,h2,h3,h4,h5{
 main{
 	display:flex;
 	flex-wrap:wrap;
-	max-width:40rem;
+	max-width:35rem;
 	margin:2rem auto;
 	padding:1rem
 }
-@media screen and (max-width: 45rem){
+@media screen and (max-width: 35rem){
 	header li{
 		display:inline;margin-right:1rem
 	}
