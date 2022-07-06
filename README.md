@@ -1,6 +1,6 @@
-# Personal Blog
+# Personal Web
 
-Live view on https://joaquinmetayer.github.io/personalblog/
+Live view on https://joaquinmetayer.github.io/personalweb/
 
 Find template and all info for this website in https://github.com/joaquinmetayer/minimalblog
 
