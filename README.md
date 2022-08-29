@@ -1,6 +1,6 @@
 # Personal Web
 
-Live view on https://joaquinmetayer.github.io/personalweb01/
+Live view on https://jmpersonalweb01.netlify.app/
 
 Find template and all info for this website in https://github.com/joaquinmetayer/minimalblog
 
